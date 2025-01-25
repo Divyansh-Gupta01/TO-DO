@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: auto;
+  height: 100%;
+}
+
+body {
+  display: flex; /* Correct value for flexbox layout */
+  justify-content: center; /* Center the container horizontally == */
+  align-items: center; /*Center the container vertically ||*/
+  background-color: rgb(0, 0, 0); /* Dark theme for outside the container */
+}
+
+.container {
+  font-family: "Sour Gummy";
+  width: 90%;
+  /*Makethecontainerslightlysmallerthanthebody*/
+  height: 90%;
+  /*Slightlysmallerheight*/
+  background-color: rgb(10, 14, 13);
+  /*Blackcontainerbackground*/
+  color: rgb(175, 169, 169);
+  /*Textcolorinsidethecontainer*/
+  display: flex;
+  /*Useflexboxifyouwanttoaligncontentinside*/
+  justify-content: center;
+  /*Centercontenthorizontally(optional)*/
+  align-items: center;
+  /*Centercontentvertically(optional)*/
+  border-radius: 1rem;
+  /*Optional:;
+  Addsroundedcornerstothecontainer*/
+  flex-direction: column;
+  border: 0.5rem solid rgb(10, 14, 13);
+  border: radius 4rem;
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  -ms-border-radius: 4rem;
+  -o-border-radius: 4rem;
+  padding: 0.5rem;
+}
+.heading {
+  margin-bottom: 4.2rem;
+  font-size: 3.5rem;
+  font-family: "kavoon";
+}
+.form {
+  margin-bottom: 20rem;
+}
+#form-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#textdiff {
+  font-family: "kavoon";
+}
